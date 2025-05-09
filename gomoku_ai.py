@@ -13,7 +13,7 @@ class GomokuAI:
     AI player for Gomoku using minimax with alpha-beta pruning.
     """
     
-    def __init__(self, max_depth=3, time_limit=2, player_id=2):
+    def __init__(self, max_depth=5, time_limit=2, player_id=2):
         """
         Initialize the AI with specified parameters.
         
